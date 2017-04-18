@@ -1,1 +1,0 @@
-angular.module("app.filters").config(["$filterProvider",function(r){r.register("status",["Status",function(r){return function(n){var t="-";return angular.forEach(r,function(r){r.value===n&&(t=r.displayName)}),t}}])}]);
